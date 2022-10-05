@@ -82,24 +82,32 @@ console.log("The average is", averageOfBoth);
 /*EX 6
  Write a piece of code for finding the longest of two given strings.
 */
-
-/* WRITE YOUR ANSWER HERE */
+console.log("\nExercise 6");
+let string1 = "hi";
+let string2 = "hello";
+let longestString;
+console.log("not solved yet");
 
 /*EX 7
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log("\nExercise 7");
+console.log("not solved yet");
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
  (Ex.: the 20% of 400 is 80)
 */
+console.log("\nExercise 8");
+let givenNumber = 63;
+let percentage = 7;
+let percentageOfGivenNumber = (percentage / givenNumber) * 100;
 
-/* WRITE YOUR ANSWER HERE */
+console.log(percentage + "% of", givenNumber, "is", percentageOfGivenNumber);
 
 /*EX 9
  Write a piece of code for checking if a given number is even or odd.
 */
-
-/* WRITE YOUR ANSWER HERE */
+console.log("\nExercise 9");
+console.log("not solved yet");
