@@ -93,7 +93,13 @@ console.log("not solved yet");
 */
 
 console.log("\nExercise 7");
-console.log("not solved yet");
+
+let integerOrNotNumber = 11.56;
+if (Number.isInteger(integerOrNotNumber)) {
+  console.log("The number", integerOrNotNumber, "is integer.");
+} else {
+  console.log("The number", integerOrNotNumber, "is NOT integer.");
+}
 
 /*EX 8
  Write a piece of code for calculating a certain percentage of a given number.
@@ -110,4 +116,9 @@ console.log(percentage + "% of", givenNumber, "is", percentageOfGivenNumber);
  Write a piece of code for checking if a given number is even or odd.
 */
 console.log("\nExercise 9");
-console.log("not solved yet");
+let evenOrOddNumber = 11;
+if (evenOrOddNumber % 2 == 0) {
+  console.log("The number", evenOrOddNumber, "is even.");
+} else {
+  console.log("The number", evenOrOddNumber, "is odd.");
+}
