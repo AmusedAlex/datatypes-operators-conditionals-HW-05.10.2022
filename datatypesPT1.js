@@ -14,7 +14,7 @@ ASSIGNMENT RULES
 
 /* In JS you need to classify data so the computer knows how to deal with it
 There are:
-numbers, wirtten as 10
+numbers, written as 10
 strings, written as "word"
 boolean, can be true or false
 undefined, is a datatype not decared as anything, yet
@@ -25,19 +25,17 @@ null, datatype was set or undefined but is now resetted
  Try to describe what a variable is, in your own words.
 */
 
-/* While coding we need to store information or temporarily partial results somewhere
-herefore we use containers(variables). They have always different readable names, starting with a low letter 
+/* While coding we need to store information or temporarily partial results somewhere.
+Herefore we use containers(variables). They have always different readable names, starting with a low letter 
 and mustn't include spaces. If a name has more then 1 word, the 2nd and ongoing word starts with a big letter. 
 Names can an include numbers. Those variables has a limited scope und can be totally reused at any time.
-
-
 */
 
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
 
-/* let sum = 12 + 30 */
+let sum = 12 + 30;
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
@@ -45,18 +43,14 @@ Names can an include numbers. Those variables has a limited scope und can be tot
 
 /* 
 let x;
-x = 12;
-
+x = 12; 
 */
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
-/* 
-let name = "John Doe"
-
-*/
+let name = "John Doe";
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
@@ -64,8 +58,7 @@ let name = "John Doe"
 
 /* 
 let sub;
-sub = 12 - x
-
+sub = 12 - x; 
 */
 
 /* EXERCISE 7
@@ -81,7 +74,7 @@ let sameName1;
 let sameName2;
 
 sameName1 = name1 === name2; // FALSE
-sameName2 = name2 === name2; // TRUE
+sameName2 = name1 === name1; // TRUE
 
 console.log("Name varification 1", sameName1);
 console.log("Name varification 2", sameName2);
@@ -92,7 +85,7 @@ console.log("Name varification 2", sameName2);
 */
 console.log("\nExercise 8");
 
-let x = 5;
+let x = 6;
 let literalNumber;
 
 if (x === 9) {
@@ -132,7 +125,7 @@ console.log("Number is", literalNumber);
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
-console.log("\nExercise9");
+console.log("\nExercise 9");
 
 let y = 2;
 let literalNumberTenary;

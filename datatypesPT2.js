@@ -17,7 +17,7 @@ console.log("Gender: ", gender);
  Write a piece of code for checking if, given two integers, the value of one of them is 8 or if their addition or subtraction is equal to 8.
 */
 console.log("\nExercise 2");
-let int1 = 3;
+let int1 = 0;
 let int2 = 8;
 let valueEight;
 let additionSubtraction;
